@@ -1,0 +1,14 @@
+{
+    "python.pythonPath": "imdbenv/bin/python",  // Cambia esta ruta según corresponda a tu entorno virtual
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": true,
+    "python.linting.flake8Enabled": true,
+    "python.linting.mypyEnabled": true,
+    "python.linting.pylintArgs": [
+        "--load-plugins=pylint_django"
+    ],
+    "python.autoComplete.extraPaths": [
+        "./your_project",  // Asegúrate de que esta ruta apunte al directorio de tu proyecto
+        "./your_project/your_app"  // Si tienes apps dentro del proyecto, añade sus rutas también
+    ]
+}
